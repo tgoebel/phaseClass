@@ -1,5 +1,6 @@
 # phaseClass
-Classify seismic phases based on systematic move-out using an RNN
+One common problem in observational seismology is the discrimination of seismic phases from noise recorded on seismograms. This task is especially challenging in low signal-to-noise (SNR) environments and in situations with many overlapping event arrivals. Commonly, seismic phases are difficult to identify based on single station records. Rather, analysts have to integrate information over many stations and time windows.
+The task here is to solve a binary classification problem to distinguish seismic phases (label=1) and erroneous picks (label=0)  based on the arrival time patterns observed over an array of stations.
 
 # Description
 
