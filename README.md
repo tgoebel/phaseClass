@@ -5,10 +5,13 @@ Classify seismic phases based on systematic move-out using an RNN
 
     Many to one sequence prediction:
 
-    - detect phase arrivals based on systematic moveout (label = 1 for seismic phase; label = 0 incorrect picks )
-    - the provided example data consists of a 6 station array that recorded 100 seismic phase with consistent move-outs
+    - detect phase arrivals based on systematic moveout 
+      (label = 1 for seismic phase; label = 0 incorrect picks )
+    - the provided example data consists of a 6 station array 
+      that recorded 100 seismic phase with consistent move-outs
       and 100 erroneous picks
-    - the recurrent neutral network is trained on synthetic data for the specific array geometry
+    - the recurrent neutral network is trained on synthetic data 
+      for the specific array geometry
 
 # Tutorial
 
